@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+#toggle:checked ~ label div div.toggle-dot{
+    @apply translate-x-3;
+}
+
+body {
+    font-family: Raleway;
+}
+
+img {
+    border-radius: 2rem;
+}
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
